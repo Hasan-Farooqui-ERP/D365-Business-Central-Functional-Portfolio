@@ -25,6 +25,7 @@ graph TD
 
 ## 🛠️ Step-by-Step Execution & Troubleshooting
 
+
 ### Step 0: Goods Receipt Note (GRN)
 ![GRN](00_Posted_Purchase_Receipt_GRN.JPG)
 * **Functional Insight:** Documented the physical receipt of 10 ATHENS Desks.
