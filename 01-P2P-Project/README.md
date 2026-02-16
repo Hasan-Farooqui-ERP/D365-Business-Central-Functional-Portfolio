@@ -56,4 +56,21 @@ graph TD
 * **Functional Insight:** Verified the final Vendor Card balance as 0.00.
 
 ---
+
+---
+
+## 📑 Financial Integration (G/L Impact Mapping)
+
+This table serves as a technical guide to how each step in the P2P process affects the General Ledger and Sub-ledgers in D365 Business Central.
+
+| Process Step | Document Type | G/L Account Category | Debit (DR) | Credit (CR) | Impact Summary |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| **Step 0: Receipt** | Purchase Receipt | Inventory (Interim) | Inventory (Accrual) | Invt. Adj. (Interim) | Increases physical stock without affecting final G/L. |
+| **Step 1: Invoicing** | Purchase Invoice | Accounts Payable | Inventory (Asset) | Vendor (Payable) | Establishes formal liability and final inventory value. |
+| **Step 2: Payment** | Payment | Cash/Bank | Vendor (Payable) | Bank Account | Decreases cash and reduces vendor liability. |
+| **Step 3: Return** | Credit Memo | Accounts Payable | Vendor (Payable) | Inventory (Asset) | Reverses liability and reduces inventory stock/value. |
+| **Step 4: Application**| N/A (Closing) | Sub-ledger Only | - | - | No G/L impact; links Credit Memo to Invoice. |
+| **Step 6: Settlement**| Final Payment | Cash/Bank | Vendor (Payable) | Bank Account | Final cash outflow to achieve Zero Balance. |
+
+---
 **Author:** Hasan Farooqui
