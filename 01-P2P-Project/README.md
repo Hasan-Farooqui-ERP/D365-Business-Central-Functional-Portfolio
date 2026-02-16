@@ -24,49 +24,35 @@ graph TD
 ---
 
 🛠️ Step-by-Step Execution & Troubleshooting
-
 Step 0: Goods Receipt Note (GRN)
-Screenshot: 00_Posted_Purchase_Receipt_GRN.jpg
-
 Functional Insight: Documented the physical receipt of 10 ATHENS Desks. This validates the inventory increase before financial processing.
 
 Troubleshooting: Initially, the 'Location Code' was missing on the PO line. I resolved this by updating the line details to ensure stock hit the correct warehouse.
 
 Step 1: Posted Purchase Invoice
-Screenshot: 01_Posted_Purchase_Invoice.jpg
-
 Functional Insight: Posted Invoice 108212 for €6,332.50, establishing the formal accounts payable liability.
 
 Troubleshooting: Resolved a 'General Posting Setup' error by verifying the combination of Gen. Bus. Posting Group (Vendor) and Gen. Prod. Posting Group (Item).
 
 Step 2: Partial Payment Application
-Screenshot: 02_Partial_Payment_Applied.jpg
-
 Functional Insight: Recorded a €2,000 partial payment via Payment Journal, specifically applying it to the invoice to track remaining principal accurately.
 
 Step 3: Purchase Return (Credit Memo)
-Screenshot: 03_Posted_Credit_Memo_Return.jpg
-
 Functional Insight: Processed a return for 2 damaged units. Used 'Exact Cost Reversing' to maintain inventory valuation integrity.
 
 Troubleshooting: Handled the 'Exact Cost Reversing Mandatory' validation by using the 'Get Posted Document Lines to Reverse' function.
 
 Step 4: Sub-Ledger Manual Reconciliation
-Screenshot: 04_Manual_Ledger_Application.jpg
-
 Functional Insight: Manually linked the Credit Memo to the original Invoice to reduce the net debt before final payment.
 
 Troubleshooting: Resolved the 'Specify an entry in Applies-to ID' error by using the 'Set Applies-to ID' function (ID: ADMIN2) to create the link between documents.
 
 Step 5: Detailed Vendor Ledger (Audit Trail)
-Screenshot: 05_Detailed_Vendor_Ledger_Entries.jpg
-
 Functional Insight: A comprehensive audit view showing the lifecycle of the debt—from initial invoice to partial payment, credit memo adjustment, and final closure.
 
 Step 6: Final Settlement & Verification
-Screenshot: 06_Final_Vendor_Balance_Zero.jpg
-
 Functional Insight: After the final payment of €3,066.00, verified the Vendor Card to confirm a 0.00 remaining balance.
 
 Author: Hasan Farooqui
+
 Business Central Functional Consultant Portfolio
