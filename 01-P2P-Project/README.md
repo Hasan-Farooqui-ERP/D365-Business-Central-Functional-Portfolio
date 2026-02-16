@@ -24,6 +24,7 @@ graph TD
 ---
 
 🛠️ Step-by-Step Execution & Troubleshooting
+
 Step 0: Goods Receipt Note (GRN)
 Screenshot: 00_Posted_Purchase_Receipt_GRN.jpg
 
