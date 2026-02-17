@@ -11,6 +11,24 @@ This project demonstrates a high-complexity **Order-to-Cash (O2C)** cycle within
 
 ---
 
+## 🔄 Process Flowchart
+The following diagram illustrates the lifecycle of this O2C transaction, including the pivot point where business exceptions (Payments & Returns) were handled.
+
+```mermaid
+graph TD
+    A[Sales Quote] -->|Convert| B(Sales Order)
+    B --> C{Release Order}
+    C --> D[Post Shipment]
+    D --> E[Post Invoice]
+    E --> F{Business Exceptions}
+    F -->|Partial Payment| G[Cash Receipt Journal]
+    F -->|Damaged Goods| H[Sales Return Order]
+    G --> I[Customer Ledger Reconciled]
+    H --> J[Post Sales Credit Memo]
+    J --> I
+```
+
+
 ## 🛠 Step-by-Step Execution
 
 ### Step 1: Master Data & Item Configuration
@@ -52,3 +70,16 @@ The "Single Source of Truth." The Customer Ledger Entries now reflect the full l
 * **Logistics Handling:** Sales returns and inventory restocking procedures.
 * **Audit & Traceability:** Using reversal functions to maintain document links.
 * **Ireland Localization:** Configuring VAT and posting groups for the IE (Ireland) region.
+
+---
+
+## ⚙️ Technical Configuration Summary
+
+| Feature | Configuration Detail | Purpose |
+| :--- | :--- | :--- |
+| **Customer Posting Group** | DOMESTIC | Maps the receivable to the correct G/L Control Account. |
+| **Gen. Bus. Posting Group** | DOMESTIC | Determines the Revenue/COGS accounts for Irish transactions. |
+| **VAT Bus. Posting Group** | DOMESTIC | Applies the standard 23% Irish VAT rate. |
+| **Item Type** | Service | Used for 'Office Setup' to bypass inventory movements. |
+| **Application Method** | Manual | Allows precise linking of the £2,000 payment to the specific invoice. |
+| **Exact Cost Reversing** | Enabled | Ensures the Sales Return is valued at the original sales price. |
