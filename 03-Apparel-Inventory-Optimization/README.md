@@ -4,7 +4,9 @@
 ## 📌 Business Scenario
 **Client Profile:** A high-heritage Irish Apparel Retailer migrating from legacy NAV to D365 Business Central.
 
-**The Problem:** * **Inventory "Blind Spots":** The legacy system tracked items as "Flat SKUs," meaning different sizes (S, M, L, XL) were not bifurcated.
+**The Problem:** 
+
+* **Inventory "Blind Spots":** The legacy system tracked items as "Flat SKUs," meaning different sizes (S, M, L, XL) were not bifurcated.
 
 * **Warehouse Communication Gap:** The shop floor had to request "Full Sets" even if only one size was missing, leading to massive overstocking of slow-moving sizes.
 
