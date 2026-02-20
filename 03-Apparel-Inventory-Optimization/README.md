@@ -17,7 +17,7 @@ The legacy system at Irish Heritage caused several operational "blind spots":
 ## 3. Technical Solutions (Functional Architecture)
 
 ### A. Multi-Dimensional Item Governance
-I architected a **Variant Matrix** for the apparel line. By using **Item Attributes & Categories**, we ensured that a single Item Card (e.g., Guinness Heritage T-Shirt) could manage dozens of size/color combinations without cluttering the Master Data.
+I architected a **Variant Matrix** for the apparel line. By using **Item Attributes & Categories**, we ensured that a single Item Card could manage dozens of size/color combinations without cluttering the Master Data.
 
 ### B. Warehouse Precision (Bin Mandatory)
 I configured the **Dublin Warehouse (DUB-WH)** as a "Directed" location. By making **Bins Mandatory**, the system now requires staff to record the exact shelf location for every item, ensuring 100% stock visibility.
@@ -31,10 +31,12 @@ To handle large orders, I implemented:
 
 ## 4. Implementation Evidence (Visuals)
 
-* **Master Data Setup:** [Item Attributes & Categories](https://github.com/Hasan-Farooqui-ERP/D365-Business-Central-Functional-Portfolio/blob/main/03-Apparel-Inventory-Optimization/images/11-Item-Attributes.JPG)
-* **Inventory Architecture:** [Multi-Dimensional Variant Matrix](https://github.com/Hasan-Farooqui-ERP/D365-Business-Central-Functional-Portfolio/blob/main/03-Apparel-Inventory-Optimization/images/01-Item-Variants-Setup.JPG)
-* **Warehouse Operations:** [Bin Content & Stock Visibility](https://github.com/Hasan-Farooqui-ERP/D365-Business-Central-Functional-Portfolio/blob/main/03-Apparel-Inventory-Optimization/images/02-Bin-Content-Tracking.JPG)
-* **Financial Mapping:** [Inventory Posting Groups & G/L Setup](https://github.com/Hasan-Farooqui-ERP/D365-Business-Central-Functional-Portfolio/blob/main/03-Apparel-Inventory-Optimization/images/04-Inventory-Posting-Setup.JPG)
+* **Master Data Setup:** [Functional Data Schema & Attributes](https://github.com/Hasan-Farooqui-ERP/D365-Business-Central-Functional-Portfolio/blob/main/03-Apparel-Inventory-Optimization/images/01-Functional-Data-Schema-Attributes.JPG)
+* **Category Hierarchy:** [Item Category Setup](https://github.com/Hasan-Farooqui-ERP/D365-Business-Central-Functional-Portfolio/blob/main/03-Apparel-Inventory-Optimization/images/02-Item-Category-Hierarchy-Setup.JPG)
+* **Inventory Architecture:** [Multi-Dimensional Variant Matrix](https://github.com/Hasan-Farooqui-ERP/D365-Business-Central-Functional-Portfolio/blob/main/03-Apparel-Inventory-Optimization/images/04-Multi-Dimensional-Variant-Matrix.JPG)
+* **Warehouse Control:** [Greenfield Location & Bin Mandatory Setup](https://github.com/Hasan-Farooqui-ERP/D365-Business-Central-Functional-Portfolio/blob/main/03-Apparel-Inventory-Optimization/images/05-Greenfield-Location-Setup-Bin-Mandatory.JPG)
+* **Financial Mapping:** [Inventory Financial Posting Groups](https://github.com/Hasan-Farooqui-ERP/D365-Business-Central-Functional-Portfolio/blob/main/03-Apparel-Inventory-Optimization/images/08-Inventory-Financial-Posting-Groups.JPG)
+* **Audit Trail:** [Item Ledger Audit Verification](https://github.com/Hasan-Farooqui-ERP/D365-Business-Central-Functional-Portfolio/blob/main/03-Apparel-Inventory-Optimization/images/10-Item-Ledger-Audit-Trail.JPG)
 
 ---
 
