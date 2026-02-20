@@ -33,7 +33,7 @@ Implemented mandatory **Reason Codes** for all inventory adjustments.
 
 ### **Step 1: Configuring the Variant Matrix**
 I set up the **Item Variants** for the core apparel line (e.g., Guinness Heritage T-Shirt) to allow individual size tracking.
-> *[Insert Image: 01-Item-Variants-Setup.JPG]*
+> */images/[Item-Variants-Setup](01-Functional-Data-Schema-Attributes.JPG)*
 
 ### **Step 2: Bin Content Visibility**
 By configuring **Bins**, we can now see exactly how many 'Medium' units are available vs 'Large' in specific warehouse zones.
