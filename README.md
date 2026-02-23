@@ -29,7 +29,7 @@ I specialize in transforming manual business processes into automated, scalable 
 ---
 
 ## 🛠️ Methodology & Documentation
-Every project in this portfolio is backed by a **Functional Requirements Document (FRD)** located in my [PMO-Governance-Toolkit](https://github.com/Hasan-Farooqui-ERP/PMO-Governance-Toolkit). This demonstrates my commitment to standard project management office (PMO) practices and implementation transparency.
+Every project in this portfolio is backed by a **[Functional Requirements Document (FRD)](https://github.com/Hasan-Farooqui-ERP/PMO-Governance-Toolkit/blob/main/Irish-Heritage-FRD.md)** located in my [PMO-Governance-Toolkit](https://github.com/Hasan-Farooqui-ERP/PMO-Governance-Toolkit). This demonstrates my commitment to standard project management office (PMO) practices and implementation transparency.
 
 ---
 
