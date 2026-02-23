@@ -14,7 +14,7 @@ I specialize in transforming manual business processes into automated, scalable 
 
 ## 📁 Featured Projects
 
-### [Project 01: Procure-to-Pay (P2P) Lifecycle](https://github.com/Hasan-Farooqui-ERP/D365-Business-Central-Functional-Portfolio/tree/main/01-Procure-to-Pay)
+### [Project 01: Procure-to-Pay (P2P) Lifecycle](https://github.com/Hasan-Farooqui-ERP/D365-Business-Central-Functional-Portfolio/tree/main/01-P2P-Project)
 * **Scope:** Full procurement cycle implementation.
 * **Key Features:** Vendor onboarding, Purchase Order approvals, and automated G/L reconciliation upon receipt.
 
