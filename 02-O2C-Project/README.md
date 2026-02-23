@@ -5,9 +5,10 @@ This project demonstrates a high-complexity **Order-to-Cash (O2C)** cycle within
 
 ### 🏢 Client Scenario: Dublin Office Solutions
 * **The Deal:** A sale of 5x ATHENS Desks plus 5 hours of professional 'Office Setup' services.
-* **The Complexity:** 1. **Service vs. Product:** Managing physical inventory alongside non-stock service hours.
-    2. **Partial Payment:** Handling a scenario where the customer pays a round sum (£2,000) against a £4,949.38 invoice.
-    3. **Sales Return:** Processing a 'Damaged in Transit' return for 1 unit and issuing a Credit Memo.
+* **The Complexity:**
+* 1. **Service vs. Product:** Managing physical inventory alongside non-stock service hours.
+  2. **Partial Payment:** Handling a scenario where the customer pays a round sum (£2,000) against a £4,949.38 invoice.
+  3. **Sales Return:** Processing a 'Damaged in Transit' return for 1 unit and issuing a Credit Memo.
 
 ---
 
