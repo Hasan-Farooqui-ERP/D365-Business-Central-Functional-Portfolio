@@ -18,7 +18,7 @@ I specialize in transforming manual business processes into automated, scalable 
 * **Scope:** Full procurement cycle implementation.
 * **Key Features:** Vendor onboarding, Purchase Order approvals, and automated G/L reconciliation upon receipt.
 
-### [Project 02: Order-to-Cash (O2C) Lifecycle](https://github.com/Hasan-Farooqui-ERP/D365-Business-Central-Functional-Portfolio/tree/main/02-Order-to-Cash)
+### [Project 02: Order-to-Cash (O2C) Lifecycle](https://github.com/Hasan-Farooqui-ERP/D365-Business-Central-Functional-Portfolio/tree/main/02-O2C-Project)
 * **Scope:** Streamlining the sales and receivables process.
 * **Key Features:** Sales Quote-to-Invoice conversion, Customer Price Groups, and credit limit management.
 
