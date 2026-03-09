@@ -32,7 +32,7 @@ Developed a high-contrast financial dashboard designed for rapid risk identifica
 - **Clustered Column Charts:** Visualizing the massive gap between Budget and Actuals.
 - **Conditional KPI Formatting:** Instant visual cues for financial loss.
 
-![Final Financial Dashboard](./Final Dashboard.JPG)
+![Final Financial Dashboard](./Final_Dashboard.JPG)
 *Figure 4: The final executive dashboard highlighting a 243% cost overrun.*
 
 ---
