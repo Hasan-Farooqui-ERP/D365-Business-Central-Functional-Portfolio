@@ -33,7 +33,33 @@ Every project in this portfolio is backed by a **[Functional Requirements Docume
 
 ---
 
+# Dynamics 365 Business Central Functional Portfolio
+Welcome to my professional portfolio. This repository documents my technical expertise as a **D365 Business Central Functional Consultant**, specializing in ERP implementation, financial data engineering, and business intelligence.
+
+---
+
+## 🚀 Featured Projects
+
+### 📊 [SAP to BC Migration: Financial Variance Analysis](https://github.com/Hasan-Farooqui-ERP/D365-Business-Central-Functional-Portfolio/tree/main/Case%20Study:%20ERP%20Financial%20Intelligence%20&%20Data%20Visualisation)
+**Scenario:** Audit of a high-stakes SAP migration project in a D365 BC Ireland Sandbox environment.
+- **The Problem:** Identified a 243% cost overrun ($4,299.40 actual vs. $1,251.00 billable) that required immediate stakeholder visibility.
+- **Technical Solution:** Built a real-time OData V4 bridge between BC and Power BI, utilizing DAX for margin calculation and conditional formatting for risk detection.
+- **Key Outcome:** Provided a "one-click" executive dashboard for financial variance audit.
+
+---
+
+## 🛠️ Technical Skillset
+- **ERP:** Microsoft Dynamics 365 Business Central (MB-800)
+- **Data:** Power BI (DAX, Power Query), OData V4, Web Services
+- **Finance:** Project Accounting, VAT/VIES Settlement, Ireland Localisation
+- **Process:** ERP Migration Auditing, ETL Workflows
+
+---
+
+
+- **Certification Goal:** MB-800: Microsoft Dynamics 365 Business Central Functional Consultant
+
 ## ✉️ Connect with me
 If you are looking for a D365 BC Functional Consultant who bridges the gap between technical configuration and business value, let's connect!
-
+- **LinkedIn:** [Hasan Farooqui](https://www.linkedin.com/in/hasan-farooqui-046b967/)
 * **GitHub:** [Hasan-Farooqui-ERP](https://github.com/Hasan-Farooqui-ERP)
