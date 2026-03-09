@@ -18,7 +18,7 @@ Managed project ledger entries and VAT settlement within the **Ireland Sandbox**
 ### 2. Data Engineering & Connectivity
 Established a secure **OData V4 web service** connection between Business Central and Power BI Desktop. This live bridge ensures that any financial updates in the ERP are reflected in the report instantly.
 
-![Web Services Setup](./Web_Services_Setup.JPG)
+![Web Services Setup](./Web-Services_Setup.JPG)
 *Figure 2: Configuring OData V4 endpoints for real-time data streaming.*
 
 ### 3. ETL & Data Modeling
